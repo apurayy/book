@@ -163,6 +163,7 @@ body{
 	background: #FDFCF5;
 	overflow: hidden;
 	border-radius: 7px;
+	box-shadow: -0.5px 1px 7px #9e9898;
 }
 .fast-product h1{
 	color: #333C45;
@@ -179,7 +180,7 @@ body{
 .fast-product-1:hover{
 	border: 2px solid #DFDEDB;
 	opacity: 0.3;
-	box-shadow: 1;
+	box-shadow: -0.5px 1px 7px #978B89;
 }
 .fast-product-1 img{
 	width: 150px;
@@ -224,6 +225,7 @@ body{
 	margin-top: 20px;
 	padding: 30px 0;
 	border-radius: 7px;
+	box-shadow: -0.5px 1px 7px #9e9898;
 }
 .book-selected-1{
 	width: 169px;
@@ -251,4 +253,51 @@ body{
 }
 .book-selected-desc h1{
 	display: inline;
+	color: #333333;
+	font-weight: 500;
+	font-size: 23px;
+	cursor: pointer;
+}
+.book-selected-desc span{
+	color: #B2B2C8;
+	font-size: 15px;
+	cursor: pointer;
+}
+/*----------btn-----*/
+.banner-btn{
+	padding: 20px 0;
+}
+.btn2{
+	padding: 0 0 20px 0;
+}
+.banner-btn a{
+	width: 208px;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 10px;
+	padding: 15px 0;
+	text-align: center;
+	color: #000;
+	background: #d5efeb;
+	border: .5px solid #0397D3;
+	position: relative;
+	z-index: 1;
+	transition: color 0.5s;
+	border-radius: 7px;
+}
+.banner-btn a span{
+	width: 0%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #0397D3;
+	z-index: -1;
+	transition: 0.5s;
+}
+.banner-btn a:hover span{
+	width: 100%;
+}
+.banner-btn a:hover{
+	color: #fff;
 }
